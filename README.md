@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Project starter Next.js
 
-## Getting Started
+This is a project starter for Next.js with TypeScript, Tailwind CSS, and Vitest for people who want to start a project with these technologies.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Tech Stack](#tech-stack)
+  - [Framework and language](#framework-and-language)
+  - [Styling](#styling)
+  - [Testing](#testing)
+  - [Commit Standard](#commit-standard)
+  - [i18n](#i18n)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### Framework and language:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-## Learn More
+#### Styling:
 
-To learn more about Next.js, take a look at the following resources:
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Automatic class sorting with prettier](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Testing:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Vitest](https://vitest.dev/guide/)
+- [playwright](https://playwright.dev/)
 
-## Deploy on Vercel
+#### Commit Standard:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [commitzen](https://commitizen.github.io/cz-cli/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+#### i18n:
+
+- [next-intl](https://next-intl.dev/docs/getting-started)
